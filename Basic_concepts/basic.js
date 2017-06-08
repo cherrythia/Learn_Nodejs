@@ -19,3 +19,13 @@ var printBacon = function() {
 printBacon();
 
 setTimeout(printBacon, 5000);
+
+//concept of referencing objects
+var john = person;
+john.firstName = "john"
+
+console.log('john firstName',john.firstName);
+console.log('person firstName',person.firstName); //replaced because is by reference
+
+console.log(19 == '19'); //compare value only, return true
+console.log(19 === '19'); //compare value and reference, return false
