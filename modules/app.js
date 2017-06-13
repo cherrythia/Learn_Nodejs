@@ -1,5 +1,10 @@
+require('./emily');
+require('./bucky');
 
+/*
 var movies = require('./movies'); 
+*/
+
 
 /*
 //'./' look into directory for a file called movies (path)
@@ -11,5 +16,7 @@ movies.chappie() //call the variable name
 //modules.printChappie  //not going to work as this is not declare export
 */
 
+/*
 movies.printAvatar();
 console.log(movies.favMovie);
+*/

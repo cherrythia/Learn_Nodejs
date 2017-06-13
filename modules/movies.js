@@ -1,4 +1,12 @@
 module.exports = {
+	favMovie : ""
+};
+
+
+
+// default every module has default exports
+/*
+module.exports = {
 
 	printAvatar : function() {
 		console.log('Avatar');
@@ -9,7 +17,7 @@ module.exports = {
 	},
 
 	favMovie : "The Maxtrix"
-};
+};*/
 
 /*
 function printAvatar() {
